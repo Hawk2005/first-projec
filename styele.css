@@ -1,0 +1,440 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 100px 15px;
+
+}
+
+.section-title {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.nav-menu {
+    background-color: black;
+    padding: 20px;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    left: 0;
+}
+
+.menu-logo {}
+
+.menu-elementi {
+    float: right;
+
+}
+
+.element {
+    text-decoration: none;
+    color: aliceblue;
+    padding: 5px;
+    font-size: 25px;
+
+}
+
+.element:hover {
+    color: yellow;
+}
+
+.header {
+    height: 100vh;
+    background-image: linear-gradient(#db7e7e, #ffc997);
+    position: relative;
+}
+
+.header-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+}
+
+.header-title {
+    text-align: center;
+    transform: translateY(-50px);
+    font-size: 90px;
+    text-shadow: 5px 6px 0 rgb(226, 74, 63);
+    color: rgb(255, 255, 255);
+}
+
+.header-link {
+    padding: 15px;
+    box-shadow: 5px 5px 0 rgb(204, 62, 62);
+    border: 1 solid rgb(238, 79, 79);
+    border-radius: 100px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.header-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+
+}
+
+.krug1 {
+    position: absolute;
+    top: -100px;
+    left: -50px;
+    animation: krug1 8s linear 0s infinite alternate;
+}
+
+@keyframes krug1 {
+    0% {
+        transform: translate(100%, 50%);
+    }
+
+    40% {
+        transform: translate(75%, 30%);
+    }
+
+    100% {
+        transform: translate(50%, 15%);
+    }
+}
+
+.krug2 {
+    position: absolute;
+    top: 750px;
+    right: 50px;
+    animation: krug2 8s ease 0s infinite alternate;
+}
+
+@keyframes krug2 {
+    0% {
+        transform: scale(1);
+    }
+
+    40% {
+        transform: scale(2);
+    }
+
+    80% {
+        transform: scale(3);
+    }
+
+    100% {
+        transform: scale(0.5);
+    }
+}
+
+.krug3 {
+    position: absolute;
+    top: -100px;
+    right: 0;
+    animation: krug3 8s ease 0s infinite alternate;
+}
+
+@keyframes krug3 {
+    0% {
+        transform: translate(100%, 50%);
+    }
+
+    40% {
+        transform: translate(75%, 30%);
+    }
+
+    100% {
+        transform: translate(50%, 15%);
+    }
+}
+
+.krug4 {
+    position: absolute;
+    top: 600PX;
+    right: 550px;
+    animation: krug4 3s linear 0s infinite alternate;
+}
+
+@keyframes krug4 {
+    0% {
+        transform: translate(100%, 50%);
+    }
+
+    40% {
+        transform: translate(75%, 30%);
+    }
+
+    100% {
+        transform: translate(50%, 15%);
+    }
+}
+
+.krug5 {
+    position: absolute;
+    top: 450PX;
+    left: 60;
+    animation: krug5 8s linear 0s infinite;
+}
+
+@keyframes krug5 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.octo {
+    position: absolute;
+    top: 100px;
+    left: 660px;
+    /* animation: krug6 8s linear 0s infinite; */
+}
+
+.octo:hover {
+    animation: krug6 8s linear 0s infinite;
+}
+
+@keyframes krug6 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.treugolnik {
+    position: absolute;
+    top: 650px;
+    left: 190px;
+    animation: krug5 8s linear 0s infinite;
+}
+
+@keyframes krug7 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.vigoda {
+
+    background: linear-gradient(7deg, #DB7E7E 18.07%, #FFC997 70%, #FFFFFF 70%);
+}
+
+.vigoda-container {
+    height: 80vh;
+}
+
+.vigoda-left {
+    display: inline-block;
+    width: 49%;
+    height: 100%;
+    vertical-align: top;
+}
+
+.section-title {}
+
+.vigoda-right {
+    display: inline-block;
+    width: 49%;
+}
+
+.vigoda-text {
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 0 rgb(204, 62, 62);
+    height: 60%;
+}
+
+.kartochki {
+    background: linear-gradient(170deg, #DB7E7E 70%, #FFFFFF 70%);
+
+}
+
+.kontener-kartochek {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.element-kartochka {
+    display: inline-block;
+    width: 300px;
+    margin: 0 15px;
+    border: 5px solid #FFC997;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.kartochka-img {
+    margin-bottom: 15px;
+}
+
+.kartchka-title {}
+
+.kartochka-text {}
+
+.element-kartochka hr {
+    height: 4px;
+    background-color: #FFC997;
+    width: 80%;
+    margin: 15px auto;
+    border: none;
+}
+
+
+.galery {}
+
+.section-title {}
+
+.galery-content {}
+
+.galery-content img {
+    display: inline-block;
+    width: calc(50% - 5px);
+    border: 5px solid #DB7E7E;
+    border-radius: 20px;
+
+}
+
+.galery-content img:hover {
+    animation: galery-anim 1s ease-in 0s 1 forwards;
+}
+
+@keyframes galery-anim {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(0.8);
+        border: 5px solid #000000;
+    }
+
+}
+
+.premuchestva {
+    position: relative;
+}
+
+.premuchestva-content {}
+
+.section-title {}
+
+.prem-card {
+    box-shadow: 7px 5px 2px #DB7E7E;
+    border-radius: 20px;
+    width: 80%;
+    border: 3px solid #FFC997;
+    margin: 40px auto;
+    padding: 50px;
+    background-color: white;
+}
+
+.card-title {}
+
+.card-list {
+    padding: 20px;
+}
+
+.card-center {
+    transform: translateX(130px);
+}
+
+.f1 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.f2 {
+    position: sticky;
+    top: 80px;
+}
+
+.premuchestva-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+@media(max-width:800px) {
+    .nav-menu {
+        height: fit-content;
+        
+    }
+
+    .vigoda-right,
+    .vigoda-left,
+    .element {
+        display: block;
+
+    }
+
+    .vigoda-right img {
+        max-width: 300px;
+        width: 100%;
+        display: block;
+        margin: 20px auto;
+    }
+
+    .container {
+        height: fit-content;
+
+    }
+
+    .card-center {
+        transform: translateX(0);
+    }
+
+    .vigoda-right,
+    .vigoda-left {
+        width: 100%;
+
+    }
+
+    .f2 {
+        max-width: 300px;
+        width: 100%;
+    }
+
+    .galery-content img{
+        display: block;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .element{
+        font-size: 14px;
+    }
+}
+
+/* добавить на гитхаб */
